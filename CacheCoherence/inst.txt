@@ -1,0 +1,3 @@
+./sim_trace -t traces/4proc_validation/ -p MOESIF &> my.txt
+
+diff my.txt traces/8proc_validation/MOESIF_validation.txt
